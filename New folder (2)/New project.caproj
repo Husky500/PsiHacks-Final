@@ -1,0 +1,269 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2project>
+    <name>New project</name>
+    <description></description>
+    <version>1.0.0.0</version>
+    <author></author>
+    <author-email></author-email>
+    <author-website>http://</author-website>
+    <app-id>com.mycompany.myapp</app-id>
+    <unique-id>2m2oqhlgof90t</unique-id>
+    <saved-with-version>17300</saved-with-version>
+    <used-plugins>
+        <plugin author="Scirra" id="Button" version="1">Button</plugin>
+        <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
+        <plugin author="Scirra" id="Text" version="1">Text</plugin>
+    </used-plugins>
+    <used-behaviors>
+        <behavior author="Scirra" id="Platform" version="1">Platform</behavior>
+        <behavior author="Scirra" id="scrollto" version="1">Scroll To</behavior>
+        <behavior author="Scirra" id="solid" version="1">Solid</behavior>
+    </used-behaviors>
+    <used-effects />
+    <configurations>
+        <configuration exporter-descname="HTML5" exporter-id="html5" name="HTML5" />
+    </configurations>
+    <window-size>
+        <width>1280</width>
+        <height>523</height>
+    </window-size>
+    <pixel-rounding>0</pixel-rounding>
+    <use-loader-layout>0</use-loader-layout>
+    <configuration-settings>
+        <prop name="Clear background">Yes</prop>
+        <prop name="Enable WebGL">On</prop>
+        <prop name="Fullscreen in browser">Letterbox scale</prop>
+        <prop name="Fullscreen scaling">High quality</prop>
+        <prop name="Loader style">Progress bar &amp; logo</prop>
+        <prop name="Orientations">Landscape</prop>
+        <prop name="Pause on unfocus">No</prop>
+        <prop name="Physics engine">Box2D web</prop>
+        <prop name="Preview browser">(default)</prop>
+        <prop name="Sampling">Linear</prop>
+        <prop name="Use high-DPI display">Yes</prop>
+    </configuration-settings>
+    <object-folder expanded="1">
+        <object-type name="BackGround" sid="4096772136942406">
+            <plugin id="Sprite" />
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="1463740849871632" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="MainCharacter" sid="6018598304360126">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="2664712005016784">
+                    <behavior id="solid" />
+                </behavior-type>
+                <behavior-type name="Platform" sid="4323980049831737">
+                    <behavior id="Platform" />
+                </behavior-type>
+                <behavior-type name="ScrollTo" sid="879502337399961">
+                    <behavior id="scrollto" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="2673619645494569" speed="5">
+                    <frame duration="1" hotspotX="0.520979" hotspotY="0.523267">
+                        <collision-poly>
+                            <point x="0.425408" y="0.300095" />
+                            <point x="0.536131" y="0.00569801" />
+                            <point x="0.699301" y="0.25736" />
+                            <point x="0.588578" y="0.390313" />
+                            <point x="0.822844" y="0.623932" />
+                            <point x="0.6993" y="1" />
+                            <point x="0.0151515" y="0.91358" />
+                            <point x="0.255245" y="0.390313" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="ReinforcementBlock" sid="6375198088639092">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="3782739774101144">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="1323273914213013" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="GrassBlock" sid="7895201787951909">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="5571554812188647">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="2611438775471719" speed="5">
+                    <frame duration="1" hotspotX="0.502222" hotspotY="0.502222" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Water" sid="453442560061455">
+            <plugin id="Sprite" />
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="5204136367354098" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Level1" sid="9910301151033678">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Austria" sid="9400385771721079">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Level2" sid="4891080683312727">
+            <plugin id="Sprite" />
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="5654180970035888" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5">
+                        <collision-poly>
+                            <point x="0.153846" y="0.111111" />
+                            <point x="0.5" y="0" />
+                            <point x="0.846154" y="0.111111" />
+                            <point x="1" y="0.5" />
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="GoLevel4" sid="4662544015207612">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="GoToLevel3" sid="3554918916713464">
+            <plugin id="Sprite" />
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="3971009249424161" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5">
+                        <collision-poly>
+                            <point x="0.153846" y="0.111111" />
+                            <point x="0.5" y="0" />
+                            <point x="0.846154" y="0.111111" />
+                            <point x="1" y="0.5" />
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Level21" sid="5689010280445708">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="GoToLevel4" sid="2374210297307388">
+            <plugin id="Sprite" />
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="239263175535638" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5">
+                        <collision-poly>
+                            <point x="0.153846" y="0.111111" />
+                            <point x="0.5" y="0" />
+                            <point x="0.846154" y="0.111111" />
+                            <point x="1" y="0.5" />
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Level3" sid="1166186709220805">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="GoToLevel5" sid="1103166948728981">
+            <plugin id="Sprite" />
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="1548949605787638" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5">
+                        <collision-poly>
+                            <point x="0.153846" y="0.111111" />
+                            <point x="0.5" y="0" />
+                            <point x="0.846154" y="0.111111" />
+                            <point x="1" y="0.5" />
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Text" sid="5347360293879937">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Text2" sid="8807881481567477">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Text3" sid="4307334690939026">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Text4" sid="2177237408636766">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Berlin" sid="2014807625062122">
+            <plugin id="Button" />
+        </object-type>
+        <object-type name="Paris" sid="9026299947303376">
+            <plugin id="Button" />
+        </object-type>
+        <object-type name="Vienna1" sid="3922547823300693">
+            <plugin id="Button" />
+        </object-type>
+        <object-type name="Madrid" sid="6678262765817685">
+            <plugin id="Button" />
+        </object-type>
+        <object-type name="Text5" sid="9887146961444899">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Text6" sid="7415989338473881">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Text7" sid="525343872493331">
+            <plugin id="Text" />
+        </object-type>
+    </object-folder>
+    <families />
+    <layout-folder expanded="1">
+        <layout>Layout 1.xml</layout>
+        <layout>Layout 2.xml</layout>
+        <layout>Layout 3.xml</layout>
+        <layout>Layout 4.xml</layout>
+        <layout>Layout 5.xml</layout>
+        <layout>Layout 6.xml</layout>
+    </layout-folder>
+    <event-folder expanded="1">
+        <event-sheet>Event sheet 1.xml</event-sheet>
+        <event-sheet>Event sheet 2.xml</event-sheet>
+        <event-sheet>Event sheet 3.xml</event-sheet>
+        <event-sheet>Event sheet 4.xml</event-sheet>
+        <event-sheet>Event sheet 5.xml</event-sheet>
+        <event-sheet>Event sheet 6.xml</event-sheet>
+    </event-folder>
+    <global-instances />
+    <sounds-folder expanded="1" />
+    <music-folder expanded="1" />
+    <files-folder expanded="1">
+        <file-folder expanded="0" name="Icons">
+            <file name="icon-16.png" />
+            <file name="icon-32.png" />
+            <file name="icon-114.png" />
+            <file name="icon-128.png" />
+            <file name="icon-256.png" />
+            <file name="loading-logo.png" />
+        </file-folder>
+    </files-folder>
+</c2project>

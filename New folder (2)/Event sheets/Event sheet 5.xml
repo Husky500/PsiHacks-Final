@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Event sheet 5</name>
+    <events>
+        <event-block sid="4526536445004161">
+            <conditions>
+                <condition id="0" name="On clicked" sid="5424227115360779" type="Vienna1" />
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="1149352746934533" type="System">
+                    <param id="0" name="Layout">Layout 6</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="6761069679373113">
+            <conditions>
+                <condition id="0" name="On clicked" sid="5458632312232381" type="Madrid" />
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="3026826285062435" type="System">
+                    <param id="0" name="Layout">Layout 1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="2462818162104128">
+            <conditions>
+                <condition id="0" name="On clicked" sid="4330155566100171" type="Berlin" />
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="6448455489261403" type="System">
+                    <param id="0" name="Layout">Layout 1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="5630988747649818">
+            <conditions>
+                <condition id="0" name="On clicked" sid="6694242590714058" type="Paris" />
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="2089314196741145" type="System">
+                    <param id="0" name="Layout">Layout 1</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

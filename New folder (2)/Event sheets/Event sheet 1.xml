@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Event sheet 1</name>
+    <events>
+        <event-block sid="3917402317129168">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="9663973012688451" type="MainCharacter">
+                    <param id="0" name="Object">Water</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-3" name="Set position" sid="9212278180751911" type="MainCharacter">
+                    <param id="0" name="X">101</param>
+                    <param id="1" name="Y">366</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="5112793628349026">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="2425257455243318" type="MainCharacter">
+                    <param id="0" name="Object">Level2</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="1679488460637073" type="System">
+                    <param id="0" name="Layout">Layout 2</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>
